@@ -6,7 +6,7 @@
 // const factorial = moduloMatematicas.factorial;
 // const { factorial, suma } = moduloMatematicas;
 // const suma = moduloMatematicas.suma;
-// console.log(moduloMatematicas.suma)
+//console.log(moduloMatematicas)
 
 const { factorial, suma } = require("./modulos/matematicas.js")
 
