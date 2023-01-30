@@ -3,7 +3,7 @@ const persona = {
     edad: 34,
     isDeveloper: true,
     saludo: function() {
-        console.log('Hello')
+        console.log('Hola Persona')
     }
 }
 
@@ -15,7 +15,7 @@ const otra_persona = {
     edad: 15,
     isDeveloper: false,
     saludo: function() {
-        console.log('Hello')
+        console.log('Hola otra persona')
     }
 }
 
@@ -37,3 +37,4 @@ const nueva_persona = creaPersona("Juan", 23, true)
 console.log(nueva_persona)
 
 const nueva_persona_2 = creaPersona("Maria", 44, false)
+console.log(nueva_persona_2)

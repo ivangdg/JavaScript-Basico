@@ -1,4 +1,4 @@
-const hTexto = document.getElementById("h-texto")
+const hTexto = document.getElementById("miTexto")
 
 console.log(hTexto)
 

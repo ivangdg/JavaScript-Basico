@@ -1,6 +1,6 @@
 const boton = document.querySelector("#btn")
 
-// console.log(boton)
+//console.log(boton)
 
 boton.addEventListener("click", () => {
     // alert("Se ha hecho click")
@@ -23,7 +23,7 @@ botonInfo.addEventListener("click", () => {
     if (nombre) {
         console.log("Tu nombre es " + nombre)
     } else {
-        console.log("No has introducido nada")
+        alert("No has introducido nada")
     }
 })
 

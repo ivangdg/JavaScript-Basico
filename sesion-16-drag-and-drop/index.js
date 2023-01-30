@@ -31,4 +31,4 @@ secciones.forEach(seccion => {
         const parrafo = document.getElementById(id_parrafo)
         seccion.appendChild(parrafo)
     })
-})
+}) 

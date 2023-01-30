@@ -1,4 +1,4 @@
-let marker, map;
+let marker, marker2, map;
 
 function initMap() {
     // console.log("Inicializando mapa")
@@ -7,6 +7,10 @@ function initMap() {
         lng: 131.044
     }
 
+    const posicion2 = {
+        lat: 19.466954,
+        lng: -99.133303
+    }
     map = new google.maps.Map(document.getElementById("map"), {
         zoom: 4,
         center: posicion
@@ -17,10 +21,18 @@ function initMap() {
         map,
         title: "Posición Inicial"
     })
+
+    marker2 = new google.maps.Marker({
+        position: posicion2,
+        map,
+        title: "Posición Inicial"
+    })
     // Obtener la geolocalización
     // marker.setPosition({ lat, lng })
-    geoPosiciona()
+    //geoPosiciona()
 }
+
+
 
 function geoPosiciona() {
     if (navigator.geolocation) {

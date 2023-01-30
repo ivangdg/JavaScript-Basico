@@ -1,4 +1,4 @@
-var nombre = "Gorka"
+nombre = "Gorka"
 
 var nombre2 = "Maria"
 

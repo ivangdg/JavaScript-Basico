@@ -1,6 +1,6 @@
 const persona = {
-    nombre: "Gorka",
-    edad: 34
+    nombre: "Iván",
+    edad: 47
 }
 
 console.log(persona)
